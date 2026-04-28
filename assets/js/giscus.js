@@ -10,7 +10,7 @@ window.onload = function() {
 
     let giscusAttributes = {
         src: 'https://giscus.app/client.js',
-        'data-repo': 'papertoy1127/papertoy1127.github.io',
+        'data-repo': 'Cywohoy/papertoy1127.github.io',
         'data-repo-id': 'R_kgDOLOs4pw',
         'data-category': 'Comments',
         'data-category-id': 'DIC_kwDOLOs4p84Cc_S6',
