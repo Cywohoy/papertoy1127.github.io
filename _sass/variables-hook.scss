@@ -2,7 +2,7 @@
   Appending custom SCSS variables will override the default ones in `_sass/addon/variables.scsss`
 */
 
-$font-family-base: 'Pretendard', serif !important;
+$font-family-base: 'Pretendard', sans-serif !important;
 $font-family-heading: 'Pretendard', sans-serif !important;
 
 @mixin dark-scheme {
