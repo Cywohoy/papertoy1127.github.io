@@ -14,7 +14,11 @@
 
 body {
     font-feature-settings: 'ss01', 'ss02', 'ss05', 'ss07', 'ss08';
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
 }
+
 
 h1 {
     font-weight: 500 !important;
@@ -189,7 +193,6 @@ article .content a:not(.footnote *):not(.fn-link):not([id^=rfn-]):not([target="_
 
 article .content em:not(.fa-classic, .fa-solid, .fa-regular, .far, .fas), article .content i:not(.fa-classic, .fa-solid, .fa-regular, .far, .fas) {
     display: inline-block;
-    font-family: 'IBM Plex Sans Italic', 'Pretendard', sans-serif !important;
     -webkit-transform: rotate(0.04deg);
     transform: rotate(0.04deg);
 }

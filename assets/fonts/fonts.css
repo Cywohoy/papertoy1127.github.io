@@ -1,25 +1,52 @@
 @font-face {
-    font-family: 'LXGW WenKai KR';
+  font-family: 'HSHwalkong_m';
+  src: url('/assets/fonts/HSHwalkongSerif_modified-300.ttf') format('truetype'); 
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap; 
+}
+@font-face {
+  font-family: 'HSHwalkong_m';
+  src: url('/assets/fonts/HSHwalkongSerif_modified-400.ttf') format('truetype'); 
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap; 
+}
+
+@font-face {
+    font-family: 'GabiaNull_m';
+    src: url('/assets/fonts/GabiaNull_modified-300.ttf') format('truetype');
     font-weight: 300;
-    src: url(/assets/fonts/LXGW/LXGWWenKaiKR-Light.ttf) format('truetype');
     font-style: normal;
-    font-display: swap;
+    font-display: swap; 
 }
-
 @font-face {
-    font-family: 'LXGW WenKai KR';
+    font-family: 'GabiaNull_m';
+    src: url('/assets/fonts/GabiaNull_modified-400.ttf') format('truetype');
     font-weight: 400;
-    src: url(/assets/fonts/LXGW/LXGWWenKaiKR-Regular.ttf) format('truetype');
     font-style: normal;
-    font-display: swap;
+    font-display: swap; 
 }
-
 @font-face {
-    font-family: 'LXGW WenKai KR';
+    font-family: 'GabiaNull_m';
+    src: url('/assets/fonts/GabiaNull_modified-500.ttf') format('truetype');
     font-weight: 500;
-    src: url(/assets/fonts/LXGW/LXGWWenKaiKR-Medium.ttf) format('truetype');
     font-style: normal;
-    font-display: swap;
+    font-display: swap; 
+}
+@font-face {
+    font-family: 'GabiaNull_m';
+    src: url('/assets/fonts/GabiaNull_modified-600.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap; 
+}
+@font-face {
+    font-family: 'GabiaNull_m';
+    src: url('/assets/fonts/GabiaNull_modified-700.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap; 
 }
 
 @font-face {
@@ -27,7 +54,7 @@
     font-weight: 100;
     src: url(/assets/fonts/CasquareCode/CasquareCodeStd-ExtraLight.ttf) format('truetype');
     font-style: normal;
-    font-display: swap;
+    font-display: fallback;
 }
 
 @font-face {
@@ -35,7 +62,7 @@
     font-weight: 200;
     src: url(/assets/fonts/CasquareCode/CasquareCodeStd-Light.ttf) format('truetype');
     font-style: normal;
-    font-display: swap;
+    font-display: fallback;
 }
 
 @font-face {
@@ -43,7 +70,7 @@
     font-weight: 300;
     src: url(/assets/fonts/CasquareCode/CasquareCodeStd-SemiLight.ttf) format('truetype');
     font-style: normal;
-    font-display: swap;
+    font-display: fallback;
 }
 
 @font-face {
@@ -51,7 +78,7 @@
     font-weight: 400;
     src: url(/assets/fonts/CasquareCode/CasquareCodeStd-Regular.ttf) format('truetype');
     font-style: normal;
-    font-display: swap;
+    font-display: fallback;
 }
 
 @font-face {
@@ -59,7 +86,7 @@
     font-weight: 600;
     src: url(/assets/fonts/CasquareCode/CasquareCodeStd-SemiBold.ttf) format('truetype');
     font-style: normal;
-    font-display: swap;
+    font-display: fallback;
 }
 
 @font-face {
@@ -67,7 +94,7 @@
     font-weight: 700;
     src: url(/assets/fonts/CasquareCode/CasquareCodeStd-Bold.ttf) format('truetype');
     font-style: normal;
-    font-display: swap;
+    font-display: fallback;
 }
 
 @font-face {
@@ -75,7 +102,7 @@
     font-weight: 100;
     src: url(/assets/fonts/CasquareCode/CasquareCodeStd-ExtraLightItalic.ttf) format('truetype');
     font-style: italic;
-    font-display: swap;
+    font-display: fallback;
 }
 
 @font-face {
@@ -83,7 +110,7 @@
     font-weight: 200;
     src: url(/assets/fonts/CasquareCode/CasquareCodeStd-LightItalic.ttf) format('truetype');
     font-style: italic;
-    font-display: swap;
+    font-display: fallback;
 }
 
 @font-face {
@@ -91,7 +118,7 @@
     font-weight: 300;
     src: url(/assets/fonts/CasquareCode/CasquareCodeStd-SemiLightItalic.ttf) format('truetype');
     font-style: italic;
-    font-display: swap;
+    font-display: fallback;
 }
 
 @font-face {
@@ -99,7 +126,7 @@
     font-weight: 400;
     src: url(/assets/fonts/CasquareCode/CasquareCodeStd-Italic.ttf) format('truetype');
     font-style: italic;
-    font-display: swap;
+    font-display: fallback;
 }
 
 @font-face {
@@ -107,7 +134,7 @@
     font-weight: 600;
     src: url(/assets/fonts/CasquareCode/CasquareCodeStd-SemiBoldItalic.ttf) format('truetype');
     font-style: italic;
-    font-display: swap;
+    font-display: fallback;
 }
 
 @font-face {
@@ -115,5 +142,5 @@
     font-weight: 700;
     src: url(/assets/fonts/CasquareCode/CasquareCodeStd-BoldItalic.ttf) format('truetype');
     font-style: italic;
-    font-display: swap;
+    font-display: fallback;
 }
